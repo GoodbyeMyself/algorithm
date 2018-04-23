@@ -5,9 +5,7 @@
 &emsp;&emsp;同一问题可用不同算法解决，而一个算法的质量优劣将影响到算法乃至程序的效率。算法分析的目的在于选择合适算法和改进算法。一个算法的评价主要从时间复杂度和空间复杂度来考虑。
 
 ### 时间复杂度
-&emsp;&emsp;算法的时间复杂度是指执行算法所需要的计算工作量。一般来说，计算机算法是问题规模n的函数f(n)，算法的时间复杂度也因此记做。   
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;T(n)=Ο(f(n))&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-&emsp;&emsp;&emsp;&emsp;&emsp;因此，问题的规模n 越大，算法执行的时间的增长率与f(n) 的增长率正相关，称作渐进时间复杂度（Asymptotic Time Complexity）。
+&emsp;&emsp;算法的时间复杂度是指执行算法所需要的计算工作量。一般来说，计算机算法是问题规模n的函数f(n)，算法的时间复杂度也因此记做。&emsp;&emsp;&emsp;&emsp;T(n)=Ο(f(n)) &emsp;&emsp;&emsp;&emsp; 因此，问题的规模n 越大，算法执行的时间的增长率与f(n) 的增长率正相关，称作渐进时间复杂度（Asymptotic Time Complexity）。
 
 ### 空间复杂度
 &emsp;&emsp;算法的空间复杂度是指算法需要消耗的内存空间。其计算和表示方法与时间复杂度类似，一般都用复杂度的渐近性来表示。同时间复杂度相比，空间复杂度的分析要简单得多。
