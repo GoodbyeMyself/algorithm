@@ -13,7 +13,6 @@
  */
 
 
-
 /**
 
  * Queue说明
@@ -38,38 +37,38 @@
 
  */
 
-	function Queue() {
-		this.container = []
-	}
+function Queue() {
+    this.container = []
+}
 
-	Queue.prototype.enqueue = function (ele) {
-		this.container.push(ele)
-	}
+Queue.prototype.enqueue = function(ele) {
+    this.container.push(ele)
+}
 
-	Queue.prototype.dequeue = function () {
-		return this.container.shift()
-	}
+Queue.prototype.dequeue = function() {
+    return this.container.shift()
+}
 
-	Queue.prototype.isEmpty = function () {
-		return !this.container.length
-	}
+Queue.prototype.isEmpty = function() {
+    return !this.container.length
+}
 
-	Queue.prototype.size = function () {
-		return this.container.length
-	}
+Queue.prototype.size = function() {
+    return this.container.length
+}
 
-	Queue.prototype.iterator = function () {
-		var container = this.container;
-		var current = 0;
-		return {
-			hasNext: function () {
-				return current !== container.length
-			},
-			next: function () {
-				return container[current++]
-			}
-		}
-	}
+Queue.prototype.iterator = function() {
+    var container = this.container;
+    var current = 0;
+    return {
+        hasNext: function() {
+            return current !== container.length
+        },
+        next: function() {
+            return container[current++]
+        }
+    }
+}
 
 
 /**
@@ -97,41 +96,41 @@
 
  */
 
-	class Stack {
+class Stack {
 
-		constructor() {
-			this.container = [];
-		}
+    constructor() {
+        this.container = [];
+    }
 
-		push(ele) {
-			this.container.unshift(ele)
-		}
+    push(ele) {
+        this.container.unshift(ele)
+    }
 
-		pop() {
-			return this.container.shift()
-		}
+    pop() {
+        return this.container.shift()
+    }
 
-		isEmpty() {
-			return !this.container.length
-		}
+    isEmpty() {
+        return !this.container.length
+    }
 
-		size() {
-			return this.container.length
-		}
+    size() {
+        return this.container.length
+    }
 
-		iterator() {
-			const container = this.container;
-			let current = 0;
-			return {
-				hasNext: function () {
-					return current !== container.length
-				},
-				next: function () {
-					return container[current++]
-				}
-			}
-		}
-	}
+    iterator() {
+        const container = this.container;
+        let current = 0;
+        return {
+            hasNext: function() {
+                return current !== container.length
+            },
+            next: function() {
+                return container[current++]
+            }
+        }
+    }
+}
 
 
 /**
@@ -144,32 +143,10 @@
 
  */
 
-	function Node(){     // 结点表示:
+function Node() { // 结点表示:
 
-		this.item=null;
+    this.item = null;
 
-		this.next=null;
+    this.next = null;
 
-	}
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
